@@ -1,7 +1,7 @@
 
 let city 
 
-const API_KEY = config.WEATHER_API_KEY || process.env.WEATHER_API_KEY;
+const API_KEY = process.env.WEATHER_API_KEY;
 
 //To get the weather data ...
 function getData() {
@@ -23,7 +23,7 @@ fetch(API_URL)
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': config.CITY_BACKGROUND_KEY || process.env.WEATHER_API_KEY,
+		'X-RapidAPI-Key': process.env.WEATHER_API_KEY,
 		'X-RapidAPI-Host': 'joj-image-search.p.rapidapi.com'
 	}
 };
