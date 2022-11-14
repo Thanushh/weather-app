@@ -1,0 +1,129 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff url(https://images.unsplash.com/photo-1566996694954-90b052c413c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) center center/cover no-repeat fixed;
+}
+
+.background-image{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    filter: brightness(0.9);
+    filter: contrast(1.1);
+    border-radius: 20px;
+    box-shadow: 0 0 50px 50px transparent inset;
+}
+
+.card {
+    position: relative;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 20px 40px;
+    margin-top: 50px;
+    border-radius: 17px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+#city-name {
+    background-color:#1C1D1D;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    color: white;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+button {
+    margin: 0 0 0 5px;
+    padding: 0%;
+    background-color:#1C1D1D;
+    border: none;
+    width: 30px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+#place {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#temp {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#weather {
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.weather-icon,.info {
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.info {
+    padding-top: 5px;
+    margin-left: 8px;
+}
+
+.weather-icon > img {
+    height: 30px;
+    filter: brightness(1.75);
+    background-color: #1C1D1D;
+    border-radius: 5px;
+}
+
+#humidity {
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+#wind-speed {
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+
+#copy-right {
+    position: absolute;
+}
+
